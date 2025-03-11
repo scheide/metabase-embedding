@@ -2,11 +2,17 @@
 
 Before embedding, remember to publish your dashboard by following these steps:
 
-![Sharing](./public/sharing.png)
+1. Click on "Sharing" icon:
 
-![Embed](./public/embed.png)
+   ![Sharing](./public/sharing.png)
 
-![Publish](./public/publish.png)
+2. Select "Embed" option:
+
+   ![Embed](./public/embed.png)
+
+3. Click on "Publish" button:
+
+   ![Publish](./public/publish.png)
 
 ## Getting Started
 

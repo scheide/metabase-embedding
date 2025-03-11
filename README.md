@@ -10,16 +10,16 @@ Before embedding, remember to publish your dashboard by following these steps:
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies by running:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+```
+
+Then, run the development server:
+
+```bash
+npx next dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

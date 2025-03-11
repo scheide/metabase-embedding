@@ -39,7 +39,7 @@ npx next dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Update Dashboard Embedding Data
+## Updating Dashboard Embedding Payload
 
 Update `page.tsx` with your dashboard payload. You can see it on the embedding page.
 

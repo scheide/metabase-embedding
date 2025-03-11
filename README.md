@@ -14,6 +14,15 @@ Before embedding, remember to publish your dashboard by following these steps:
 
    ![Publish](./public/publish.png)
 
+## Configuring Environment Variables
+
+Create a `.env` in the root of your project:
+
+```
+METABASE_SITE_URL=http://localhost:3000
+METABASE_SECRET_KEY=<YOUR_METABASE_SECRET_KEY>
+```
+
 ## Getting Started
 
 First, install the dependencies by running:
@@ -32,6 +41,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Update Dashboard Embedding Data
 
-Update `page.tsx` with your dashboard payload. You can see it on the embedding page:
+Update `page.tsx` with your dashboard payload. You can see it on the embedding page.
 
-![Dashboard Payload](./public/code-snippet.png)
+Example:
+
+```typescript
+const payload = {
+    resource: { dashboard: 2 },
+    params: {},
+    exp: Math.round(Date.now() / 1000) + (10 \* 60) // 10 minute expiration
+};
+```

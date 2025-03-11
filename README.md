@@ -2,23 +2,23 @@
 
 Before embedding, remember to publish your dashboard by following these steps:
 
-1. Click on "Sharing" icon:
+1. Click on the "Sharing" icon:
 
    ![Sharing](./public/sharing.png)
 
-2. Select "Embed" option:
+2. Select the "Embed" option:
 
    ![Embed](./public/embed.png)
 
-3. Click on "Publish" button:
+3. Click on the "Publish" button:
 
    ![Publish](./public/publish.png)
 
 ## Configuring Environment Variables
 
-Create a `.env` in the root of your project:
+Create a `.env` file in the root of your project with the following content:
 
-```
+```bash
 METABASE_SITE_URL=http://localhost:3000
 METABASE_SECRET_KEY=<YOUR_METABASE_SECRET_KEY>
 ```
@@ -52,3 +52,7 @@ const payload = {
     exp: Math.round(Date.now() / 1000) + (10 \* 60) // 10 minute expiration
 };
 ```
+
+## Licensing
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
